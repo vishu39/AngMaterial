@@ -1,0 +1,19 @@
+<div class="main">
+  
+  <mat-toolbar class="mat-top">
+       <div class="header">
+          <h1 class="navHeading">Angular Materials
+          </h1>
+          <span class="icon">
+            <fa-icon (click)="onClick()" [icon]="bars"></fa-icon>
+          </span>
+        </div>
+    <div id="lk"  [ngClass]="link ? 'none' : 'link'">
+      <a class="linkBtn" routerLink="">Home</a>
+      <a class="linkBtn" routerLink="">contact us</a>
+      <a class="linkBtn" routerLink="">About us</a>
+      <a class="linkBtn" routerLink="">.....</a>
+    </div>
+  </mat-toolbar>
+
+  </div>
