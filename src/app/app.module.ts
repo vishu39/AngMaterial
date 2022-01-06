@@ -17,6 +17,7 @@ import { ExpensionPannelComponent } from './component/expension-pannel/expension
 import { TabsComponent } from './component/tabs/tabs.component';
 import { SteppersComponent } from './component/steppers/steppers.component';
 import { FormsComponent } from './component/forms/forms.component';
+import { DialogComponent } from './component/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,11 @@ import { FormsComponent } from './component/forms/forms.component';
     ExpensionPannelComponent,
     TabsComponent,
     SteppersComponent,
-    FormsComponent
+    FormsComponent,
+    DialogComponent
+  ],
+  entryComponents:[
+    DialogComponent
   ],
   imports: [
     BrowserModule,

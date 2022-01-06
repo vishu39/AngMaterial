@@ -1,0 +1,4 @@
+.dialog {
+  display: grid;
+  grid-template-columns: 45% 45%;
+}

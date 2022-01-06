@@ -14,6 +14,7 @@ import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTabsModule} from '@angular/material/tabs';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 const MaterialComponents=[
 MatCardModule,
@@ -30,7 +31,8 @@ MatTableModule,
 MatIconModule,
 MatExpansionModule,
 MatTabsModule,
-MatInputModule
+MatInputModule,
+ScrollingModule
   ];
 @NgModule({
   declarations: [],
